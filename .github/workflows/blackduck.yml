@@ -10,6 +10,7 @@ on:
 jobs:
   blackduck:
     runs-on: ubuntu-latest
+    environment: TestEnvironment
     steps:
     - name: Checkout Source
       uses: actions/checkout@v4
